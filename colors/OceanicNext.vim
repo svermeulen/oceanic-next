@@ -79,7 +79,8 @@ hi! IncSearch gui=NONE,standout term=NONE,standout guifg=#de935f guibg=NONE
 call <sid>hi('Italic',                     '',       '',       s:italic,    '')
 
 call <sid>hi('Macro',                      s:base08, '',       '',          '')
-call <sid>hi('MatchParen',                 s:base05, s:base03, '',          '')
+"call <sid>hi('MatchParen',                 s:base05, s:base03, '',          '')
+hi! MatchParen gui=NONE,standout term=NONE,standout guifg=#de935f guibg=#555555
 call <sid>hi('ModeMsg',                    s:base0B, '',       '',          '')
 call <sid>hi('MoreMsg',                    s:base0B, '',       '',          '')
 call <sid>hi('Question',                   s:base0D, '',       '',          '')
