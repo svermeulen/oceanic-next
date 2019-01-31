@@ -74,8 +74,7 @@ call <sid>hi('ErrorMsg',                   s:base08, s:base00, '',          '')
 call <sid>hi('Exception',                  s:base08, '',       '',          '')
 call <sid>hi('FoldColumn',                 s:base0D, s:base00, '',          '')
 call <sid>hi('Folded',                     s:base03, s:base01, s:italic,    '')
-"call <sid>hi('IncSearch',                  s:base01, s:base09, '',          '')
-hi! IncSearch gui=NONE,standout term=NONE,standout guifg=#de935f guibg=NONE
+call <sid>hi('IncSearch',                  s:base03, s:base0A, '',          '')
 call <sid>hi('Italic',                     '',       '',       s:italic,    '')
 
 call <sid>hi('Macro',                      s:base08, '',       '',          '')
