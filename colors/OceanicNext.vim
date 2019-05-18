@@ -30,6 +30,7 @@
   let s:base01=['#343d46', '237']
   let s:base02=['#4f5b66', '240']
   let s:base03=['#65737e', '243']
+  let s:base035=['#7c8a96', '243']
   let s:base04=['#a7adba', '145']
   let s:base05=['#c0c5ce', '251']
   let s:base06=['#cdd3de', '252']
@@ -37,6 +38,7 @@
   let s:base08=['#ec5f67', '203']
   let s:base09=['#f99157', '209']
   let s:base0A=['#fac863', '221']
+  let s:base0G=['#97d8ca', '221']
   let s:base0B=['#99c794', '114']
   let s:base0C=['#62b3b2', '73']
   let s:base0D=['#6699cc', '68']
@@ -124,7 +126,7 @@ call <sid>hi('helpCommand',                s:base0A, '',       '',          '')
 call <sid>hi('Boolean',                    s:base09, '',       '',          '')
 call <sid>hi('Character',                  s:base08, '',       '',          '')
 " call <sid>hi('Comment',                    s:base03, '',       s:italic,    '')
-call <sid>hi('Comment',                    s:base0F, '',       s:italic,    '')
+call <sid>hi('Comment',                    s:base035, '',       s:italic,    '')
 call <sid>hi('Conditional',                s:base0E, '',       '',          '')
 call <sid>hi('Constant',                   s:base09, '',       '',          '')
 call <sid>hi('Define',                     s:base0E, '',       '',          '')
@@ -142,21 +144,21 @@ call <sid>hi('Repeat',                     s:base0A, '',       '',          '')
 call <sid>hi('Special',                    s:base0C, '',       '',          '')
 call <sid>hi('SpecialChar',                s:base0F, '',       '',          '')
 call <sid>hi('Statement',                  s:base08, '',       '',          '')
-call <sid>hi('StorageClass',               s:base0A, '',       '',          '')
+call <sid>hi('StorageClass',               s:base0G, '',       '',          '')
 call <sid>hi('String',                     s:base0B, '',       '',          '')
 call <sid>hi('Structure',                  s:base0E, '',       '',          '')
 call <sid>hi('Tag',                        s:base0A, '',       '',          '')
 call <sid>hi('Todo',                       s:base0A, s:base01, '',          '')
-call <sid>hi('Type',                       s:base0A, '',       '',          '')
-call <sid>hi('Typedef',                    s:base0A, '',       '',          '')
+call <sid>hi('Type',                       s:base0G, '',       '',          '')
+call <sid>hi('Typedef',                    s:base0G, '',       '',          '')
 
 call <sid>hi('SpellBad',                   '',       '',       'undercurl', '')
 call <sid>hi('SpellLocal',                 '',       '',       'undercurl', '')
 call <sid>hi('SpellCap',                   '',       '',       'undercurl', '')
 call <sid>hi('SpellRare',                  '',       '',       'undercurl', '')
 
-call <sid>hi('csClass',                    s:base0A, '',       '',          '')
-call <sid>hi('csAttribute',                s:base0A, '',       '',          '')
+call <sid>hi('csClass',                    s:base0G, '',       '',          '')
+call <sid>hi('csAttribute',                s:base0G, '',       '',          '')
 call <sid>hi('csModifier',                 s:base0E, '',       '',          '')
 call <sid>hi('csType',                     s:base08, '',       '',          '')
 call <sid>hi('csUnspecifiedStatement',     s:base0D, '',       '',          '')
