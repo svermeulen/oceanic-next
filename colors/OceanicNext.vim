@@ -41,10 +41,11 @@
   let s:base0G=['#97d8ca', '221']
   let s:base0B=['#99c794', '114']
   let s:base0C=['#62b3b2', '73']
-  let s:base0D=['#336699', '68']
+  let s:base0D=['#6699cc', '68']
   let s:base0E=['#c594c5', '176']
   let s:base0F=['#ab7967', '137']
   let s:base10=['#ffffff', '15']
+  let s:base11=['#336699', '68']
   let s:none=['NONE', 'NONE']
 
 " }}}
@@ -113,7 +114,7 @@ call <sid>hi('CursorLine',                 '',       s:base01, 'NONE',      '')
 call <sid>hi('CursorLineNR',               s:base00, s:base00, '',          '')
 call <sid>hi('CursorLineNr',               s:base03, s:base01, '',          '')
 call <sid>hi('PMenu',                      s:base04, s:base01, '',          '')
-call <sid>hi('PMenuSel',                   s:base10, s:base0D, '',          '')
+call <sid>hi('PMenuSel',                   s:base10, s:base11, '',          '')
 call <sid>hi('PmenuSbar',                  '',       s:base02, '',          '')
 call <sid>hi('PmenuThumb',                 '',       s:base07, '',          '')
 call <sid>hi('TabLine',                    s:base03, s:base01, '',          '')
