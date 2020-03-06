@@ -41,7 +41,7 @@
   let s:base0G=['#97d8ca', '221']
   let s:base0B=['#99c794', '114']
   let s:base0C=['#62b3b2', '73']
-  let s:base0D=['#6699cc', '68']
+  let s:base0D=['#3e7dbb', '68']
   let s:base0E=['#c594c5', '176']
   let s:base0F=['#ab7967', '137']
   let s:base10=['#ffffff', '15']
